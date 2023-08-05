@@ -185,8 +185,6 @@ header ul.navigation.active{
     flex-direction: column;
     background: #fff;
     z-index: 10;
-    font-size: 1.5em;
-    margin: 5px 0;
 }
 header ul li a{
     font-size: 1.5em;
@@ -199,7 +197,7 @@ section{
 }
 .content{
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .content .textBox h2{
     font-size: 2.5em;
@@ -211,21 +209,18 @@ section{
 .content .imgBox{
 max-width: 100%;
 justify-content: center;
-padding-right: 0;
-margin-top: 30px;
 }
-.content .imgBox img{
-    max-width: 100%;
-    }
 .thumb li img{
-    max-width:30px ;
+    max-width:40px ;
 }
 .sci{
-   
+  background: #017143;  
   right: 0;
   width: 50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .circle{
-    clip-path: circle(300px at center bottom);
+    clip-path: circle(400px at center bottom);
 }
 }

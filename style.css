@@ -211,7 +211,7 @@ max-width: 100%;
 justify-content: center;
 }
 .content .imgBox img{
-    max-width: 100%;
+    max-width: 300px;
     }
 .thumb li img{
     max-width:40px ;

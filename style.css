@@ -139,7 +139,7 @@ header ul li a{
 }
 
 /* Apply modifications for smaller screens */
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     
 header{
     padding: 20px;
@@ -193,11 +193,11 @@ header ul li a{
     text-decoration: none;
 }
 section{
-    padding: 20px 20px 120px;
+    padding: 20px ;
 }
 .content{
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .content .textBox h2{
     font-size: 2.5em;
@@ -209,12 +209,14 @@ section{
 .content .imgBox{
 max-width: 100%;
 justify-content: center;
+padding-right: 0;
+margin-top: 30px;
 }
 .content .imgBox img{
-    max-width: 250px;
+    max-width: 100%;
     }
 .thumb li img{
-    max-width:40px ;
+    max-width:30px ;
 }
 .sci{
   background: #017143;  
@@ -224,6 +226,6 @@ justify-content: center;
   border-bottom-left-radius: 5px;
 }
 .circle{
-    clip-path: circle(400px at center bottom);
+    clip-path: circle(300px at center bottom);
 }
 }

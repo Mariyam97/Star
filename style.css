@@ -140,7 +140,7 @@ header ul li a{
 
 /* Apply modifications for smaller screens */
 
-@media (min-width:420px) and (max-width: 991px) {
+@media  (max-width: 991px) {
     
     header{
         padding: 20px;
@@ -209,7 +209,7 @@ header ul li a{
     justify-content: center;
     }
     .content .imgBox img{
-        max-width: 250px;
+        max-width: 300px;
         }
     .thumb li img{
         max-width:40px ;
@@ -222,7 +222,7 @@ header ul li a{
       border-bottom-left-radius: 5px;
     }
     .circle{
-        clip-path: circle(400px at center bottom);
+        clip-path: circle(500px at center bottom);
     }
     
 }

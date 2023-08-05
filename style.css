@@ -139,7 +139,7 @@ header ul li a{
 }
 
 /* Apply modifications for smaller screens */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     
 header{
     padding: 20px;
@@ -185,6 +185,8 @@ header ul.navigation.active{
     flex-direction: column;
     background: #fff;
     z-index: 10;
+    font-size: 1.5em;
+    margin: 5px 0;
 }
 header ul li a{
     font-size: 1.5em;
@@ -193,7 +195,7 @@ header ul li a{
     text-decoration: none;
 }
 section{
-    padding: 20px ;
+    padding: 20px 20px 120px;
 }
 .content{
     flex-direction: column;
@@ -219,11 +221,9 @@ margin-top: 30px;
     max-width:30px ;
 }
 .sci{
-  background: #017143;  
+   
   right: 0;
   width: 50px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 .circle{
     clip-path: circle(300px at center bottom);

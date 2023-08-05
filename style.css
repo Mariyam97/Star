@@ -209,10 +209,10 @@ header ul li a{
     justify-content: center;
     }
     .content .imgBox img{
-        max-width: 400px;
+        max-width: 200px;
         }
     .thumb li img{
-        max-width:50px ;
+        max-width:30px ;
     }
     .sci{
       background: #017143;  
@@ -222,7 +222,7 @@ header ul li a{
       border-bottom-left-radius: 5px;
     }
     .circle{
-        clip-path: circle(300px at center bottom);
+        clip-path: circle(400px at center bottom);
     }
     
 }

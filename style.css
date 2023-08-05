@@ -140,7 +140,7 @@ header ul li a{
 
 /* Apply modifications for smaller screens */
 
-@media (max-width: 991px) {
+@media screen and (min-width:420px) and (max-width: 991px) {
     
     header{
         padding: 20px;

@@ -170,7 +170,7 @@ header ul{
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
-    filter: invert(1);
+    
   
 }
 header ul.navigation.active{
@@ -210,6 +210,9 @@ section{
 max-width: 100%;
 justify-content: center;
 }
+.content .imgBox img{
+    max-width: 100%;
+    }
 .thumb li img{
     max-width:40px ;
 }
